@@ -1,0 +1,51 @@
+.contact-main-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    .contact-container {
+        background-color: black;
+        color: white;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 20px;
+        width: 60vw;
+        .contact-email {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            span {
+                background-color: black;
+            }
+        }
+        .contact-phone-number {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            span {
+                background-color: black;
+            }
+        }
+        .contact-github {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: black;
+            span {
+                background-color: black;
+            }
+        }
+    }
+}
+
+@media ( max-width: 1100px ) {
+    .contact-container {
+        flex-direction: column;
+        .contact-email, .contact-phone-number, .contact-github {
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.plans {
+    list-style-type: none;
+    color: white;
+    .plans-container {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        .plans-path {
+            display: flex;
+            flex-direction: column;
+            width: 60vw;
+        }
+        .plans-path > li, h4, span {
+            background-color: black;
+        }
+        .beginning {
+            padding: 20px;
+        }
+        .evolved {
+            padding: 20px;
+        }
+        .evolving {
+            padding: 20px;
+        }
+    }
+}

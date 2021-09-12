@@ -1,0 +1,73 @@
+.project {
+    background-color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .projects-title {
+        padding: 20px;
+        color: white;
+        background-color: black;
+        .category-text {
+            background-color: black;
+        }
+    }
+    
+    .projects-list-todo {
+        margin-top: 10px;
+        color:white;
+        background-color: black !important;
+        display: flex;
+        align-content: center;
+        padding-bottom: 20px;
+        .todo-app {
+            background-color: black;
+            background-image: url('/components/css/images/todo-app.PNG');
+            background-size: contain;
+            height: 30vh;
+            width: 50vh;
+            transition: 0.5s;
+            &:hover {
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                transition: 0.5s;
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+    .projects-list-iLunie {
+        margin-top: 10px;
+        color:white;
+        background-color: black !important;
+        display: flex;
+        align-content: center;
+        padding-bottom: 20px;
+        .iLunie {
+            background-color: black;
+            background-image: url('/components/css/images/iLunie.PNG');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 30vh;
+            width: 30vh;
+            transition: 0.5s;
+            &:hover {
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                transition: 0.5s;
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+}

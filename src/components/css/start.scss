@@ -1,0 +1,536 @@
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.intro-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 30vh 30vh;
+    grid-template-areas: 
+    "projects projects about-me knowledge-base"
+    "projects projects plans contact";
+    .about-me {
+        background-color: black;
+        position: relative;
+        grid-area: about-me;
+        background-repeat: no-repeat;
+        .about-me-container {
+            // background-color: black;
+            background-image: url('/components/css/images/aboutme.jpg');
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            transition: 0.5s;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .category-text {
+                font-size: 40px;
+                font-weight: bold;
+                color: white;
+                background-color: transparent;
+                opacity: 1;
+                width:inherit;
+                height:inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    opacity: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .projects {
+        background-color: black;
+        position: relative;
+        grid-area: projects;
+        background-repeat: no-repeat;
+        .projects-container {
+            // background-color: black;
+            background-image: url('/components/css/images/projects.jpg');
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            transition: 0.5s;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .category-text {
+                font-size: 40px;
+                font-weight: bold;
+                color: black;
+                background-color: transparent;
+                opacity: 1;
+                width:inherit;
+                height:inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    opacity: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    transition: 0.5s;
+                }
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+    
+    .knowledge-base {
+        background-color: black;
+        position: relative;
+        grid-area: knowledge-base;
+        background-repeat: no-repeat;
+        .knowledge-base-container {
+            // background-color: black;
+            background-image: url('/components/css/images/knowledgebase.jpg');
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            transition: 0.5s;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .category-text {
+                font-size: 40px;
+                font-weight: bold;
+                color: white;
+                background-color: transparent;
+                opacity: 1;
+                width:inherit;
+                height:inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    opacity: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    transition: 0.5s;
+                }
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+    
+    .plans {
+        background-color: black;
+        position: relative;
+        grid-area: plans;
+        background-repeat: no-repeat;
+        .plans-container {
+            // background-color: black;
+            background-image: url('/components/css/images/plans.jpg');
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            transition: 0.5s;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .category-text {
+                font-size: 40px;
+                font-weight: bold;
+                color: black;
+                background-color: transparent;
+                opacity: 1;
+                width:inherit;
+                height:inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    opacity: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    transition: 0.5s;
+                }
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+    
+    .contact {
+        background-color: black;
+        position: relative;
+        grid-area: contact;
+        background-repeat: no-repeat;
+        .contact-container {
+            // background-color: black;
+            background-image: url('/components/css/images/contact.jpg');
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+            transition: 0.5s;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .category-text {
+                font-size: 40px;
+                font-weight: bold;
+                color: black;
+                background-color: transparent;
+                opacity: 1;
+                width:inherit;
+                height:inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:hover {
+                    opacity: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    transition: 0.5s;
+                }
+            }
+            &:hover {
+                transform: scale(0.97);
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+@media ( max-width: 1100px ) {
+    .intro-container {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 40vw;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-areas: 
+        "projects"
+        "about-me"
+        "knowledge-base"
+        "plans"
+        "contact";
+        .about-me {
+            grid-area: about-me;
+            .a {
+                transition: none;
+                background-image: none;
+                border: none;
+                background-color: rgb(61, 61, 61);
+                border-bottom: 1px black solid;
+                .category-text {
+                    font-size: 20px;
+                    opacity: 1;
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    transform: scale(1.0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        .projects {
+            grid-area: projects;
+            .b {
+                transition: none;
+                background-image: none;
+                border: none;
+                border-bottom: 1px black solid;
+                background-color: rgb(61, 61, 61);
+                .category-text {
+                    font-size: 20px;
+                    opacity: 1;
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    transform: scale(1.0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        .knowledge-base {
+            grid-area: knowledge-base;
+            .c {
+                transition: none;
+                background-image: none;
+                border: none;
+                background-color: rgb(61, 61, 61);
+                border: none;
+                border-bottom: 1px black solid;
+                .category-text {
+                    font-size: 20px;
+                    opacity: 1;
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    transform: scale(1.0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        .plans {
+            grid-area: plans;
+            .d {
+                transition: none;
+                background-image: none;
+                border: none;
+                background-color: rgb(61, 61, 61);
+                border: none;
+                border-bottom: 1px black solid;
+                .category-text {
+                    font-size: 20px;
+                    opacity: 1;
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    transform: scale(1.0);
+                    opacity: 1;
+                }
+            }
+        }
+
+        .contact {
+            grid-area: contact;
+            .e {
+                transition: none;
+                background-image: none;
+                border: none;
+                background-color: rgb(61, 61, 61);
+                .category-text {
+                    font-size: 20px;
+                    opacity: 1;
+                    background-color: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+                &:hover {
+                    transform: scale(1.0);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    @media ( max-width: 650px ) {
+        .intro-container {
+            position: absolute;
+            display: grid;
+            grid-template-columns: 40vw;
+            grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+            grid-template-areas: 
+            "projects"
+            "about-me"
+            "knowledge-base"
+            "plans"
+            "contact";
+            .about-me {
+                grid-area: about-me;
+                .a {
+                    transition: none;
+                    background-image: none;
+                    border: none;
+                    background-color: rgb(61, 61, 61);
+                    border: none;
+                    border-bottom: 1px black solid;
+                    .category-text {
+                        font-size: 15px;
+                        opacity: 1;
+                        background-color: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.0);
+                        opacity: 1;
+                    }
+                }
+            }
+    
+            .projects {
+                grid-area: projects;
+                .b {
+                    transition: none;
+                    background-image: none;
+                    border: none;
+                    border-bottom: 1px black solid;
+                    background-color: rgb(61, 61, 61);
+                    .category-text {
+                        font-size: 15px;
+                        opacity: 1;
+                        background-color: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.0);
+                        opacity: 1;
+                    }
+                }
+            }
+    
+            .knowledge-base {
+                grid-area: knowledge-base;
+                .c {
+                    transition: none;
+                    background-image: none;
+                    border: none;
+                    background-color: rgb(61, 61, 61);
+                    border: none;
+                    border-bottom: 1px black solid;
+                    .category-text {
+                        font-size: 15px;
+                        opacity: 1;
+                        background-color: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.0);
+                        opacity: 1;
+                    }
+                }
+            }
+    
+            .plans {
+                grid-area: plans;
+                .d {
+                    transition: none;
+                    background-image: none;
+                    border: none;
+                    background-color: rgb(61, 61, 61);
+                    border: none;
+                    border-bottom: 1px black solid;
+                    .category-text {
+                        font-size: 15px;
+                        opacity: 1;
+                        background-color: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.0);
+                        opacity: 1;
+                    }
+                }
+            }
+    
+            .contact {
+                grid-area: contact;
+                .e {
+                    transition: none;
+                    background-image: none;
+                    border: none;
+                    background-color: rgb(61, 61, 61);
+                    .category-text {
+                        font-size: 15px;
+                        opacity: 1;
+                        background-color: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                    &:hover {
+                        transform: scale(1.0);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

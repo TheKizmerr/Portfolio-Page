@@ -1,0 +1,769 @@
+.start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80vh;
+}
+
+.intro-container {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20vw 20vw 20vw 20vw;
+      grid-template-columns: 20vw 20vw 20vw 20vw;
+  -ms-grid-rows: 30vh 30vh;
+      grid-template-rows: 30vh 30vh;
+      grid-template-areas: "projects projects about-me knowledge-base" "projects projects plans contact";
+}
+
+.intro-container .about-me {
+  background-color: black;
+  position: relative;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: about-me;
+  background-repeat: no-repeat;
+}
+
+.intro-container .about-me .about-me-container {
+  background-image: url("/components/css/images/aboutme.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .about-me .about-me-container .test {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-container .about-me .about-me-container .test:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .about-me .about-me-container:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+
+.intro-container .projects {
+  background-color: black;
+  position: relative;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: projects;
+  background-repeat: no-repeat;
+}
+
+.intro-container .projects .projects-container {
+  background-image: url("/components/css/images/projects.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .projects .projects-container .test {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-container .projects .projects-container .test:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.intro-container .projects .projects-container:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+
+.intro-container .knowledge-base {
+  background-color: black;
+  position: relative;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: knowledge-base;
+  background-repeat: no-repeat;
+}
+
+.intro-container .knowledge-base .knowledge-base-container {
+  background-image: url("/components/css/images/knowledgebase.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .knowledge-base .knowledge-base-container .test {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-container .knowledge-base .knowledge-base-container .test:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.intro-container .knowledge-base .knowledge-base-container:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+
+.intro-container .plans {
+  background-color: black;
+  position: relative;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: plans;
+  background-repeat: no-repeat;
+}
+
+.intro-container .plans .plans-container {
+  background-image: url("/components/css/images/plans.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .plans .plans-container .test {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-container .plans .plans-container .test:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.intro-container .plans .plans-container:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+
+.intro-container .contact {
+  background-color: black;
+  position: relative;
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: contact;
+  background-repeat: no-repeat;
+}
+
+.intro-container .contact .contact-container {
+  background-image: url("/components/css/images/contact.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.intro-container .contact .contact-container .test {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-container .contact .contact-container .test:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.intro-container .contact .contact-container:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+
+@media (max-width: 1100px) {
+  .intro-container {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40vw;
+        grid-template-columns: 40vw;
+    -ms-grid-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-areas: "projects" "about-me" "knowledge-base" "plans" "contact";
+  }
+  .intro-container .about-me {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: about-me;
+  }
+  .intro-container .about-me .a {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .about-me .a .test {
+    font-size: 20px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro-container .about-me .a .test:hover {
+    opacity: 1;
+  }
+  .intro-container .about-me .a:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .projects {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: projects;
+  }
+  .intro-container .projects .b {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    border-bottom: 1px black solid;
+    background-color: #3d3d3d;
+  }
+  .intro-container .projects .b .test {
+    font-size: 20px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .projects .b .test:hover {
+    opacity: 1;
+  }
+  .intro-container .projects .b:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .knowledge-base {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: knowledge-base;
+  }
+  .intro-container .knowledge-base .c {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .knowledge-base .c .test {
+    font-size: 20px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro-container .knowledge-base .c .test:hover {
+    opacity: 1;
+  }
+  .intro-container .knowledge-base .c:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .plans {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: plans;
+  }
+  .intro-container .plans .d {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .plans .d .test {
+    font-size: 20px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .plans .d .test:hover {
+    opacity: 1;
+  }
+  .intro-container .plans .d:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .contact {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: contact;
+  }
+  .intro-container .contact .e {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+  }
+  .intro-container .contact .e .test {
+    font-size: 20px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .contact .e .test:hover {
+    opacity: 1;
+  }
+  .intro-container .contact .e:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1100px) and (max-width: 650px) {
+  .intro-container {
+    position: absolute;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 40vw;
+        grid-template-columns: 40vw;
+    -ms-grid-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+        grid-template-areas: "projects" "about-me" "knowledge-base" "plans" "contact";
+  }
+  .intro-container .about-me {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: about-me;
+  }
+  .intro-container .about-me .a {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .about-me .a .test {
+    font-size: 15px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro-container .about-me .a .test:hover {
+    opacity: 1;
+  }
+  .intro-container .about-me .a:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .projects {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: projects;
+  }
+  .intro-container .projects .b {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    border-bottom: 1px black solid;
+    background-color: #3d3d3d;
+  }
+  .intro-container .projects .b .test {
+    font-size: 15px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .projects .b .test:hover {
+    opacity: 1;
+  }
+  .intro-container .projects .b:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .knowledge-base {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: knowledge-base;
+  }
+  .intro-container .knowledge-base .c {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .knowledge-base .c .test {
+    font-size: 15px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .intro-container .knowledge-base .c .test:hover {
+    opacity: 1;
+  }
+  .intro-container .knowledge-base .c:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .plans {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: plans;
+  }
+  .intro-container .plans .d {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+    border: none;
+    border-bottom: 1px black solid;
+  }
+  .intro-container .plans .d .test {
+    font-size: 15px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .plans .d .test:hover {
+    opacity: 1;
+  }
+  .intro-container .plans .d:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  .intro-container .contact {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: contact;
+  }
+  .intro-container .contact .e {
+    -webkit-transition: none;
+    transition: none;
+    background-image: none;
+    border: none;
+    background-color: #3d3d3d;
+  }
+  .intro-container .contact .e .test {
+    font-size: 15px;
+    opacity: 1;
+    background-color: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+  }
+  .intro-container .contact .e .test:hover {
+    opacity: 1;
+  }
+  .intro-container .contact .e:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=start.css.map */

@@ -1,0 +1,71 @@
+.project {
+  background-color: black !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.project .projects-title {
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.project .projects-title .test {
+  background-color: black;
+}
+
+.project .projects-list {
+  margin-top: 10px;
+  color: white;
+  background-color: black !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-bottom: 20px;
+}
+
+.project .projects-list .todo-app {
+  background-color: black;
+  background-image: url("/components/css/images/todo-app.PNG");
+  background-size: contain;
+  height: 30vh;
+  width: 50vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.project .projects-list .todo-app:hover {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.project .projects-list .todo-app:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0.7;
+}
+/*# sourceMappingURL=projects.css.map */

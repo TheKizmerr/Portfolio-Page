@@ -1,0 +1,42 @@
+.plans {
+  list-style-type: none;
+  color: white;
+}
+
+.plans .plans-container {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.plans .plans-container .plans-path {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60vw;
+}
+
+.plans .plans-container .plans-path > li, .plans .plans-container h4, .plans .plans-container span {
+  background-color: black;
+}
+
+.plans .plans-container .beginning {
+  padding: 20px;
+}
+
+.plans .plans-container .evolved {
+  padding: 20px;
+}
+
+.plans .plans-container .evolving {
+  padding: 20px;
+}
+/*# sourceMappingURL=plans.css.map */

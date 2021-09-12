@@ -1,0 +1,17 @@
+.knowledge-base {
+    background-color: black !important; 
+    .knowledge-base-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        color: white;
+        background-color: black;
+        .skeleton > *, .body > *, .brain > * {
+            background-color: black !important;
+            text-align: center;
+            padding: 20px;
+        }
+    }
+}

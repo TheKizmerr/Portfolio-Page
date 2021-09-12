@@ -1,0 +1,23 @@
+.header-container {
+    background-color: rgb(49, 49, 49);
+    height: 5vh;
+    width: 100%;
+    border-bottom: 1px solid white;
+    .header {
+        background-color: rgb(49, 49, 49);
+        height: inherit;
+        .clock-container {
+            height: inherit;
+            background-color: rgb(49, 49, 49);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            .clock {
+                background-color: rgb(49, 49, 49);
+                color:white;
+                margin-left: 5px;
+            }
+        }
+    }
+}
