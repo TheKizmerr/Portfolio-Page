@@ -41,6 +41,13 @@ function Plans() {
                             In August I began to create a weather app called iLunie. Till this day it still maintained.
                         </span>
                     </li>
+                    <li className="evolving">
+                        <h4>Evolving - January, 2021 - current</h4>
+                        <span>
+                            After a needed break around winter of 2021, becuase of carrer posiiton change I got back into learning. Currentley focusing on JS and React.
+                            Aquiried also a mentoring from Stefan Mischook to get a better understanding of JS and having an access for future development with Python.
+                        </span>
+                    </li>
                 </div>
             </main>
         </div>
